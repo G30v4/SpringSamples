@@ -8,6 +8,8 @@ import org.springframework.security.crypto.password.NoOpPasswordEncoder;
 import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.security.provisioning.InMemoryUserDetailsManager;
 
+import java.util.List;
+
 @Configuration
 public class UsrMngCfg {
 
@@ -20,8 +22,10 @@ public class UsrMngCfg {
                 .authorities("read")
                 .build();
 
-        userDetailService.createUser(user);
-        return userDetailService;
+        var users = List.of(user);
+//        userDetailService.createUser(user);
+//        return userDetailService;
+        return new InMemoryUserDetailsService(users);
     }
 
     @Bean
