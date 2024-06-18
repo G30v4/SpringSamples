@@ -10,7 +10,7 @@ Personalized configurations to implementing Spring Security:
 ### Spring Data
 Personalized configurations to implementing Spring Data::
 
-* [MongoDb config with multi connections](https://github.com/G30v4/SpringSamples.git)
+* [MongoDb config with multi connections](https://github.com/G30v4/SpringSamples/tree/master/SpringData/mongo-multi-conn)
 
 
 

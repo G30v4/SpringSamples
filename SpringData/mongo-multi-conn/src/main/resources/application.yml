@@ -1,2 +1,13 @@
 spring:
   application.name: mongo-multi-conn
+
+  # data:
+  #     mongodb:
+  #       uri: ${MONGO_URI_DB1}
+  #       auto-index-creation: false
+
+db.mongo:
+  db1:
+    uri: ${MONGO_URI_DB1}
+  db2:
+    uri: ${MONGO_URI_DB2}

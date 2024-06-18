@@ -11,3 +11,6 @@ An alternative to implement  multi connection with [**mongoTemplate**](https://d
 - Spring Boot v3.3.0
 - Mongo v7.0.11
 
+## References
+- [Registering a MongoDatabaseFactory](https://docs.spring.io/spring-data/mongodb/reference/mongodb/configuration.html#mongo.mongo-db-factory)
+- [Mapping Configuration](https://docs.spring.io/spring-data/mongodb/reference/mongodb/mapping/mapping.html#mapping-configuration)
